@@ -1,10 +1,11 @@
+# coding: utf-8
 Gem::Specification.new do |s|
   s.name          = 'logstash-codec-idmefv2'
   s.version       = '0.1.0'
   s.licenses      = ['Apache-2.0']
-  s.summary       = 'TODO: Write a short summary, because Rubygems requires one.'
-  s.description   = 'TODO: Write a longer description or delete this line.'
-  s.homepage      = 'TODO: Put your plugin''s website or public repo URL here.'
+  s.summary       = 'A logstash codec plugin for IDMEF V2.'
+  s.description   = 'This logstash codec plugin allows to transform messages to/from IDMEF V2 standard.'
+  s.homepage      = 'https://github.com/teclib-idmef/logstash-codec-idmefv2'
   s.authors       = ['François Déchelle']
   s.email         = 'fdechelle@teclib.com'
   s.require_paths = ['lib']
